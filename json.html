@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Json</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        background-color: rgb(37, 90, 136);
+      }
+    </style>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <form>
+              <div class="mb-3 text-center">
+                <label class="mt-4 mb-3 text-white" for="valorInput"
+                  >Registration</label
+                >
+                <input id="valorInput" type="text" class="form-control" />
+              </div>
+            </form>
+          </div>
+          <div class="text-center">
+            <button
+              id="btnsave"
+              type="button"
+              class="btn btn-outline-info mx-2"
+            >
+              Save
+            </button>
+            <button
+              id="btnload"
+              type="button"
+              class="btn btn-outline-light mx-2"
+            >
+              Load
+            </button>
+            <button
+              id="btndelete"
+              type="button"
+              class="btn btn-outline-danger mx-2"
+            >
+              Delete
+            </button>
+          </div>
+          <h2><span id="valorDILS" class="btn btn-light"></span></h2>
+        </div>
+      </div>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/json.js"></script>
+  </body>
+</html>
