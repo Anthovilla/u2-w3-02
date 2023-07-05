@@ -14,7 +14,7 @@ saveButton.addEventListener('click',save)
 const load =function () {
     const cardMemo = localStorage.getItem('note-inLS') 
     if(cardMemo) {
-        textReference.value = cardMemo
+        textReference.value = cardMemo                    //meglio è di fare un array
     }else {
         alert('nope memory')
     }
